@@ -1,6 +1,6 @@
 import React from 'react'
 import { Button } from './ui/button'
-import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"
+
 import Image from 'next/image'
 import { useToast } from '@/hooks/use-toast';
 import { cn } from '@/lib/utils';
