@@ -1,4 +1,4 @@
-// @ts-nocheck
+
 'use client';
 
 import { Call, CallRecording } from '@stream-io/video-react-sdk';
@@ -57,6 +57,7 @@ const CallList = ({ type }: { type: 'ended' | 'upcoming' | 'recordings' }) => {
             }
             catch (error) {
                 toast({ title: "Try again later" })
+                console.log(error)
             }
         }
 
