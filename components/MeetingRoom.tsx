@@ -1,5 +1,5 @@
 import { cn } from '@/lib/utils'
-import { CallControls, CallingState, CallParticipantsList, CallStats, CallStatsButton, PaginatedGridLayout, SpeakerLayout, useCallStateHooks } from '@stream-io/video-react-sdk'
+import { CallControls, CallingState, CallParticipantsList, CallStatsButton, PaginatedGridLayout, SpeakerLayout, useCallStateHooks } from '@stream-io/video-react-sdk'
 import React, { useState } from 'react'
 
 import {
